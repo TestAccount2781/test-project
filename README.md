@@ -6,7 +6,7 @@ GitHub is renowned in the Software Development industry as a tool used by develo
 
 Getting started with GitHub may seem like a daunting task and wrapping your head around terms such as "Repositories", "Pull and Push Requests", and "Branches" can take some time but once the fundamentals are understood it's uses can be uncovered pretty quickly.
 
-In this brief introduction to GitHub we will run through your GitHub Profile, creating a Repository and uploading some files to it too.
+In this brief introduction to GitHub we will run through your GitHub Profile, creating a repository and uploading some files to it too.
 
 ## First logging on to GitHub.com -
 
@@ -42,7 +42,7 @@ Once the repository has been created GitHub will provide instructions on how to 
 
 ## **Your Project Files -**
 
-When you have your project files opened in you IDE we can begin to track them using git and get them published to the repository we have just created.
+When you have your project files opened in your IDE we can begin to track them using git and get them published to the repository we have just created.
 
 <img title-image="testProject" alt="testProject" src="imgs/testProject.png">
 
@@ -90,7 +90,7 @@ Seeing as this is the first commit we will use that as our comment.
 
 <img title-image="gitFirstCommit" alt="gitFirstCommit" src="imgs/gitFirstCommit.png">
 
-We also want to ensure that our first commit points to the main branch. By default, the first branch of a GitHub repository is always the main branch. Use the following command to ensure the commit will sent to the main branch.  
+We also want to ensure that our first commit points to the main branch. By default, the first branch of a GitHub repository is always the main branch. Use the following command to ensure the commit will be sent to the main branch.  
 
     git branch -M main
 
@@ -120,7 +120,7 @@ Our files have been successfully uploaded to the repository!
 
 As mentioned previously, the first branch GitHub creates is the main. Once we have completed an initial upload, it's important that branches are created so progress can be tracked in stages.
 
-Creating a new branch is straight forward and can completed by using the git checkout command:
+Creating a new branch is straight forward and can be completed by using the git checkout command:
 
     git checkout -b <your-new-branch-name>
 
@@ -146,4 +146,6 @@ GitHub will advise that the merge has been successful and the main branch has be
 
 ## **Summary**
 
-Getting up and running with GitHub can be a little challenging for the first while but it's uses once you are familiar with it can benefit your projects greatly. GitHub can also be an integral part of a collaborative project when multiple people are working with the same code.
+Getting up and running with GitHub can be a little challenging for the first while but it once you are familiar with it's uses can benefit your projects greatly. GitHub can also be an integral part of a collaborative project when multiple people are working with the same code.
+
+Getting used to GitHub is very worthwhile if you have plans on entering the Software Development industry so you can start using this guide to create projects and repositories and start uploading to your profile!
