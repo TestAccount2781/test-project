@@ -34,13 +34,13 @@ From this page, you will need to name your project as a requirement. You also ha
 
 Once this page is complete we can select create repository!
 
-### **Initial repository page -**
+## **Initial repository page -**
 
 Once the repository has been created GitHub will provide instructions on how to set it up so it is ready for our first use.
 
 <img title-image="emptyRepository" alt="emptyRepositoryPage" src="imgs/emptyRepository.png">
 
-### **Your Project Files -**
+## **Your Project Files -**
 
 When you have your project files opened in you IDE we can begin to track them using git and get them published to the repository we have just created.
 
@@ -71,3 +71,57 @@ git staus will display our branch, commits, and tracked files.
 We can then add these files by using git add. At this initial stage we can use the following comman  to included all files in the folder.
 
     git add -A
+
+git status then confirm the desired files have been added.
+
+<img title-image="gitAddA" alt="gitAddA" src="imgs/gitAddA.png">
+
+Once these steps have been completed, we are ready to do initiate the first commit.
+
+## **git commits -**
+
+A commit is aimed at keeping track of the projects progress and the work that has been completed so far. If something was wrong at any stage of the project, git commits allow us to return to a point where we knew the project was functional.
+
+We always add a comment to our commits with a bit of information detailing what has been completed. Seeing as this is the first commit we will use that as our comment.
+
+
+    git commit -m "first commit"
+
+
+<img title-image="gitFirstCommit" alt="gitFirstCommit" src="imgs/gitFirstCommit.png">
+
+
+We also want to ensure that our first commit points to the main branch. By default, the first branch of a GitHub repository is always the main branch. Use the following command to ensure the commit will be on the main branch.  
+
+    git branch -M main
+
+An important part of the process is to point git to GitHub, it will not automatically know where we are trying to send our files and we require them to be uploaded to the repository we created earlier.
+
+The link is provided by GitHub when our project is empty:
+
+<img title-image="reposLink" alt="reposLink" src="imgs/reposLink.png">
+
+We can then set gits remote by using the following command and inserting our link.
+
+    git remote add origin https://github.com/TestAccount2781/test-project.git
+
+Once our commit is ready, we can push to our repository on GitHub and see our uplaoded files using the following command:
+
+    git push -u origin main
+
+Our terminal will confirm if files have been uploaded to the repository and if we are successful we can check GitHub for our files.
+
+<img title-image="gitPush" alt="gitPush" src="imgs/gitPush.png">
+
+Our files have been successfully uploaded to the repository!
+
+<img title-image="fileUplaoded" alt="fileUploaded" src="imgs/fileUploaded.png">
+
+## **Branches -**
+
+As mentioned previously, the first branch GitHub creates is the main. Once we have compelted an initial upload, it's important that branches are created so progress can be tracked in stages.
+
+Creating a new branch is straight foward using the git checkour command and can be completed by using the following:
+
+    git checkout -b <your-new-branch-name>
+
