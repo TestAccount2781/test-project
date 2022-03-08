@@ -52,11 +52,9 @@ We can begin tracking a project we want to upload to the repository by typing th
 
 The terminal will confirm that the project is now being tracked using git and has initialized an empty repository. From this point onwards git will track any changes to files in the project folder we have selected.
 
-
 <img title-image="gitInit" alt="gitInit" src="imgs/gitInit.png">
 
 We will also need to add a .gitignore file to our project. Without going into too much detail, the .gitignore file prevents certain files from being uploaded to the repository. This may be for security reasons or some files may simply not be required.
-
 
 <img title-image="gitIgnoreFile" alt="gitIgnoreFile" src="imgs/gitIgnoreFile.png">
 
@@ -64,7 +62,7 @@ At all stages of the process, we can check what files are ready to be uploaded b
 
     git status 
 
-git staus will display our branch, commits, and tracked files.
+git status will display our branch, commits, and tracked files.
 
 <img title-image="gitStatus" alt="gitStatus" src="imgs/gitStatus.png">
 
@@ -73,7 +71,6 @@ As we can see here, the untracked files are in red. We want to add these files t
 We add these files by using git add. At this initial stage we can use the following command to included all files in the folder.
 
     git add -A
-
 
 git status then confirms the desired files have been added.
 
@@ -91,9 +88,7 @@ Seeing as this is the first commit we will use that as our comment.
 
     git commit -m "first commit"
 
-
 <img title-image="gitFirstCommit" alt="gitFirstCommit" src="imgs/gitFirstCommit.png">
-
 
 We also want to ensure that our first commit points to the main branch. By default, the first branch of a GitHub repository is always the main branch. Use the following command to ensure the commit will sent to the main branch.  
 
@@ -119,11 +114,11 @@ Our terminal will confirm if files have been uploaded to the repository and if w
 
 Our files have been successfully uploaded to the repository!
 
-<img title-image="fileUplaoded" alt="fileUploaded" src="imgs/fileUploaded.png">
+<img title-image="fileUploaded" alt="fileUploaded" src="imgs/fileUploaded.png">
 
 ## **Branches -**
 
-As mentioned previously, the first branch GitHub creates is the main. Once we have compelted an initial upload, it's important that branches are created so progress can be tracked in stages.
+As mentioned previously, the first branch GitHub creates is the main. Once we have completed an initial upload, it's important that branches are created so progress can be tracked in stages.
 
 Creating a new branch is straight forward and can completed by using the git checkout command:
 
@@ -148,3 +143,7 @@ When a new branch is pushed to the repository, a pull request will be created an
 GitHub will advise that the merge has been successful and the main branch has been updated.
 
 <img title-image="merged" alt="merged" src="imgs/merged.png">
+
+## **Summary**
+
+Getting up and running with GitHub can be a little challenging for the first while but it's uses once you are familiar with it can benefit your projects greatly. GitHub can also be an integral part of a collaborative project when multiple people are working with the same code.
