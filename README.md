@@ -8,19 +8,19 @@ Getting started with GitHub may seem like a daunting task and wrapping your head
 
 In this brief introduction to GitHub we will run through your GitHub Profile, creating a repository and uploading some files to it too.
 
-## First logging on to GitHub.com -
+## First logging on to GitHub.com
 
 <img title="emptyGitHub" alt="emptyGitHub" src="imgs/emptyGitHub.png">
 
 Once you create your account and log in for the first time your profile by default will display popular repositories, your contributions and your contribution activity. Your profile is a great way of demonstrating these contributions and displaying the projects you are involved in.
 
-### **What is a Repository? -**
+### **What is a Repository?**
 
 A repository is a central file storage location and is used to store multiple versions of files throughout a project. It can be stored on the cloud so multiple people in a project can gain access to the files, start working on them and eventually re-upload their changes without impacting the originals.
 
 We will go into detail about this process further down.
 
-### **Creating your first repository -**
+### **Creating your first repository**
 
 Select the repositories tab on your profile and select the 'New' button.
 
@@ -34,13 +34,13 @@ From this page, you will need to name your project as a requirement. You also ha
 
 Once this page is complete we can select create repository!
 
-## **Initial repository page -**
+## **Initial repository page**
 
 Once the repository has been created GitHub will provide instructions on how to set it up so it is ready for use.
 
 <img title-image="emptyRepository" alt="emptyRepositoryPage" src="imgs/emptyRepository.png">
 
-## **Your Project Files -**
+## **Your Project Files**
 
 When you have your project files opened in your IDE we can begin to track them using git and get them published to the repository we have just created.
 
@@ -78,7 +78,7 @@ git status then confirms the desired files have been added.
 
 Once these steps have been completed, we are ready to do initiate the first commit.
 
-## **git commits -**
+## **git commits**
 
 A commit is aimed at keeping track of the projects progress and the work that has been completed so far. If something was wrong at any stage of the project, git commits allow us to return to a point where we knew the project was functional.
 
@@ -116,7 +116,7 @@ Our files have been successfully uploaded to the repository!
 
 <img title-image="fileUploaded" alt="fileUploaded" src="imgs/fileUploaded.png">
 
-## **Branches -**
+## **Branches**
 
 As mentioned previously, the first branch GitHub creates is the main. Once we have completed an initial upload, it's important that branches are created so progress can be tracked in stages.
 
@@ -130,7 +130,7 @@ Additional changes to the file will be tracked on this branch and once you are h
 
 Once the second branch has been pushed to the repository, a pull request will be completed which will merge the branch to the main and update the project successfully.
 
-## **Pull Requests -**
+## **Pull Requests**
 
 A pull request is aimed at keeping track of a project and ensuring that changes to the project code are introduced without overwriting previous information.
 
